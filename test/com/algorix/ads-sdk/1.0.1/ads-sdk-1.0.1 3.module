@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.algorix",
+    "module": "ads-sdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "jd5dbkq4gvcxxc5hgjvdpgmp6q"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ads-sdk-1.0.1.aar",
+          "url": "ads-sdk-1.0.1.aar",
+          "size": 486119,
+          "sha512": "3f7ee2a0daa2f84e21a818b6f4d31f977726af95d98144376fb15ce88a23b103ed9ae56b8b739f89fc889179d0a8202967ca322cb16093336e5cfa8e1a49fcf2",
+          "sha256": "4d057cd65e62bdcbbc01e02ccc22bd4aec5edb6f25212dd259dc4743de092c5e",
+          "sha1": "71d06618d460462adcc28cc62445917f8aa325a5",
+          "md5": "a2032ae6ccd67fd3ef98c52dc6633371"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-sdk-1.0.1.aar",
+          "url": "ads-sdk-1.0.1.aar",
+          "size": 486119,
+          "sha512": "3f7ee2a0daa2f84e21a818b6f4d31f977726af95d98144376fb15ce88a23b103ed9ae56b8b739f89fc889179d0a8202967ca322cb16093336e5cfa8e1a49fcf2",
+          "sha256": "4d057cd65e62bdcbbc01e02ccc22bd4aec5edb6f25212dd259dc4743de092c5e",
+          "sha1": "71d06618d460462adcc28cc62445917f8aa325a5",
+          "md5": "a2032ae6ccd67fd3ef98c52dc6633371"
+        }
+      ]
+    }
+  ]
+}

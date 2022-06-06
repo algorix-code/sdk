@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.algorix",
+    "module": "ads-sdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "v6gagb4m6bavnp7tmnfrorldie"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ads-sdk-1.0.1.aar",
+          "url": "ads-sdk-1.0.1.aar",
+          "size": 486119,
+          "sha512": "e3de5481c8ed11d5bc0c6047e245f141b7fd8ea5c1d4919b5c05a1065b62dd3041ccfcd707f23a4b8e8077ee52d67ed58ecd43098d944d7b0f57f7602e41b437",
+          "sha256": "70a7695b866df69d0a1c9cebeecae46073947fdfd6c8276c2093f9c6dd3ed55e",
+          "sha1": "1225a3206f181a9aeb80f2db2545ecaf65059f2b",
+          "md5": "c729f9deac7fb4599b983d5a7dc61bd7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ads-sdk-1.0.1.aar",
+          "url": "ads-sdk-1.0.1.aar",
+          "size": 486119,
+          "sha512": "e3de5481c8ed11d5bc0c6047e245f141b7fd8ea5c1d4919b5c05a1065b62dd3041ccfcd707f23a4b8e8077ee52d67ed58ecd43098d944d7b0f57f7602e41b437",
+          "sha256": "70a7695b866df69d0a1c9cebeecae46073947fdfd6c8276c2093f9c6dd3ed55e",
+          "sha1": "1225a3206f181a9aeb80f2db2545ecaf65059f2b",
+          "md5": "c729f9deac7fb4599b983d5a7dc61bd7"
+        }
+      ]
+    }
+  ]
+}
