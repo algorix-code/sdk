@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.algorix",
+    "module": "adapter-admob",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adapter-admob-1.0.1.aar",
+          "url": "adapter-admob-1.0.1.aar",
+          "size": 46716,
+          "sha512": "e3567024262311e761046ccee50564c9a1e6d1435694fb1265d0c9c6120011f0883ba19dc0057cec84e4e093b31b128f07ff58def0d6d4f6cf94b38257104b9b",
+          "sha256": "fbc080dff3e784ee909aaddb7de0efe022070b37e6aa5e30f9a60dcd0acc8bf6",
+          "sha1": "615b2c89218560c41cb36ae51bbad469652a9c69",
+          "md5": "1a9ff1691c3e138ff524f7f32901050c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adapter-admob-1.0.1.aar",
+          "url": "adapter-admob-1.0.1.aar",
+          "size": 46716,
+          "sha512": "e3567024262311e761046ccee50564c9a1e6d1435694fb1265d0c9c6120011f0883ba19dc0057cec84e4e093b31b128f07ff58def0d6d4f6cf94b38257104b9b",
+          "sha256": "fbc080dff3e784ee909aaddb7de0efe022070b37e6aa5e30f9a60dcd0acc8bf6",
+          "sha1": "615b2c89218560c41cb36ae51bbad469652a9c69",
+          "md5": "1a9ff1691c3e138ff524f7f32901050c"
+        }
+      ]
+    }
+  ]
+}

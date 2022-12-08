@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.algorix",
+    "module": "adapter-ironsource",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adapter-ironsource-1.0.1.aar",
+          "url": "adapter-ironsource-1.0.1.aar",
+          "size": 24749,
+          "sha512": "cce23b4aa62bed159cb70c7611429988ccf2b7e7ac6486cae42a80f74c5ee36acfa0de84c944c9f33b4fe84b87540400d00e29cb90fea2a6e4f44c5eb2e2df4b",
+          "sha256": "9080113a255fcffe043f54daca0cbc58809ab8eaee8a6574e9a9ab195c2b99e8",
+          "sha1": "17a94ee4b06bb867d64bd87b9cb1a169c7cb7bc9",
+          "md5": "5cefb4ed2dc450c1906cb8568b31feba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adapter-ironsource-1.0.1.aar",
+          "url": "adapter-ironsource-1.0.1.aar",
+          "size": 24749,
+          "sha512": "cce23b4aa62bed159cb70c7611429988ccf2b7e7ac6486cae42a80f74c5ee36acfa0de84c944c9f33b4fe84b87540400d00e29cb90fea2a6e4f44c5eb2e2df4b",
+          "sha256": "9080113a255fcffe043f54daca0cbc58809ab8eaee8a6574e9a9ab195c2b99e8",
+          "sha1": "17a94ee4b06bb867d64bd87b9cb1a169c7cb7bc9",
+          "md5": "5cefb4ed2dc450c1906cb8568b31feba"
+        }
+      ]
+    }
+  ]
+}

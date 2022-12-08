@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.algorix",
+    "module": "adapter-anythink",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adapter-anythink-1.0.1.aar",
+          "url": "adapter-anythink-1.0.1.aar",
+          "size": 43962,
+          "sha512": "e1868fb8aa70c3d322deb3ebd34a84d6182c303e3f9a1dc9feba23fc90678ff8c32ea076e2dcceb3683af7f98910eeb77c5fb279317b8ae5ef67b43efd1e38b9",
+          "sha256": "5a68b36bb9c241fa5f01626f2ece77ada675741db67a5760be251f3df0de7556",
+          "sha1": "1e1f27825e3d1103fee5b1870149846a5b92d3ff",
+          "md5": "ddbfae2ee80a9c18b5a31b36c62d55ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "adapter-anythink-1.0.1.aar",
+          "url": "adapter-anythink-1.0.1.aar",
+          "size": 43962,
+          "sha512": "e1868fb8aa70c3d322deb3ebd34a84d6182c303e3f9a1dc9feba23fc90678ff8c32ea076e2dcceb3683af7f98910eeb77c5fb279317b8ae5ef67b43efd1e38b9",
+          "sha256": "5a68b36bb9c241fa5f01626f2ece77ada675741db67a5760be251f3df0de7556",
+          "sha1": "1e1f27825e3d1103fee5b1870149846a5b92d3ff",
+          "md5": "ddbfae2ee80a9c18b5a31b36c62d55ec"
+        }
+      ]
+    }
+  ]
+}
